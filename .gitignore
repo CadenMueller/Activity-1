@@ -17,7 +17,7 @@ Created on Wed Oct  2 12:04:35 2019
 Gender = str(input('Enter your gender Male or Female: '))
 Age = int(input('Enter your age: '))
 Total_Cholesterol = int(input('Enter your total cholesterol: '))
-Smoker = str(input('Do you smoke, Yes or No: '))
+Smoker = str(input('Type 1 for Yes and 0 for No. Please answer the following answer. Do you smoke?'))
 HDL = int(input('Enter your HDL: '))
 Treat = str(input('Is your systolic BP treated, Yes or No: '))
 Systolic_BP = int(input('Enter your systolic BP: '))
