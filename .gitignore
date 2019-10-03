@@ -126,7 +126,7 @@ if Gender == 'Male':
             Point_Total += 1
         if Smoker == 'Yes' :
             Point_Total += 1
-    if Age >= 70 and Age < 75:
+    if Age >= 75 and Age < 80:
         Point_Total += 13
         if Total_Cholesterol >= 240 and Total_Cholesterol < 280:
             Point_Total += 1
@@ -291,7 +291,7 @@ if Gender == 'Female':
             Point_Total += 2
         if Smoker == 'Yes' :
             Point_Total += 1
-    if Age >= 70 and Age < 75:
+    if Age >= 75 and Age < 80:
         Point_Total += 16
         if Total_Cholesterol >= 160 and Total_Cholesterol < 200:
             Point_Total += 1 
@@ -329,7 +329,7 @@ if Gender == 'Female':
             Point_Total += 4
     if Point_Total < 9:
         print('Your ten year risk is less than 1 percent')
-    if Point_Total <= 9 and Point_Total <= 12:
+    if Point_Total >= 9 and Point_Total <= 12:
         print('Your ten year risk is 1 percent')
     if Point_Total == 13 or Point_Total == 14:
         print('Your ten year risk is 2 percent')
